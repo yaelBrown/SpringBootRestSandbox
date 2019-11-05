@@ -13,7 +13,6 @@ public class PersonDao {
     private static Map<Integer, Person> people;
 
     static {
-
         people = new HashMap<Integer, Person>() {
 
             {
@@ -22,7 +21,6 @@ public class PersonDao {
                 put(3, new Person(3, "Ethan"));
             }
         };
-
     }
 
     public Collection<Person> getAllPeople() {
